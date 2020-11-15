@@ -1,0 +1,11 @@
+version: "3"
+services:
+  jupyter:
+    container_name: jupyter
+    image: jupyter/tensorflow-notebook:latest
+    command: tini -g -- start-notebook.sh --NotebookApp.password='sha1:3e4c3a853cfa:251d8d3c92bdb31eba1f9961f81a847b5dcc5fe2'
+    volumes:
+      - ~/workspace/notebook:/home/jovyan
+    ports:
+      - 8888:8888
+      # - 6006:6006
