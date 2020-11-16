@@ -3,6 +3,11 @@ This is a repository of simple Docker examples and manage their deployment with 
 
 ## Examples
 
+### Databases
+| Name | Description |
+| --- | --- |
+| [Redis](redis/README.md) | |
+| [PostgreSQL](postgresql/README.md) | |
 ### Python
 | Name | Description |
 | --- | --- |
